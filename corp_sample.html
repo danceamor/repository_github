@@ -24,7 +24,7 @@
 
 <!-- スタイルシートはできるだけ早くレンダリングされるため、HTMLドキュメントの上の方に記述
      href属性にスタイルシートファイルのURIを記述 -->
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style.css">
 
 <!-- IE8以下用に2つのスクリプトを記述
      html5shiv.js: IE8以下にHTML5の要素を認識するようにさせる
@@ -51,7 +51,55 @@
 <body>
 
 <!-- コンテンツを記述 -->
+<div id="wrapper">
+  <header>
 
+  <p class="firtstcomment">テキストテキストテキストテキスト</p>
+  <h1>HTML5 1colom</h1>
+  <nav>
+    <ul>
+      <li>会社概要</li>
+      <li>事業紹介</li>
+      <li>採用情報</li>
+      <li>お問い合わせ</li>
+    </ul>
+  </nav>
+</header>
+
+  <div id="content">
+    <div id="mv"></div>
+
+    <div id="news">
+      <h2>お知らせ</h2>
+      <section class="newslist">
+        <p class="date">2016年3月1日</p>
+        <a href="#" class="title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p></a>
+      </section>
+
+      <section class="newslist">
+        <p class="date">2016年3月1日</p>
+        <a href="#" class="title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p></a>
+      </section>
+
+      <section class="newslist">
+        <p class="date">2016年3月1日</p>
+        <a href="#" class="title">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p></a>
+      </section>
+    </div>
+
+
+    <div id="banner">
+      <a href="#" class="banner"><img src="banner.jpg" /></a>
+      <a href="#" class="banner"><img src="banner.jpg" /></a>
+    </div>
+  </div>
+
+  <footer>
+    <p class="copyright">Copyright(c) 2016 *** All Rights Reserved.</p>
+  </footer>
+
+
+</div>
 <!-- スクリプトでブロッキングを起こすものはここに記述
 ブロッキングを起こす原因としては、CSSのセレクタ操作（IE）、負荷の高いDOM操作、多数のスクリプトなど -->
 <!-- SCRIPTS -->

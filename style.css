@@ -1,37 +1,22 @@
-/*body領域の高さ指定*/
-#parallax{
-  height: 3000px;
+body {
+  text-align: center;
 }
 
-/*スクロール値のCSS*/
-.num {
-  margin: 0;
-  position: fixed;
-  right: 10px;
-  top: 10px;
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  height: auto;
 }
 
-
-/*ボックスたちのCSS*/
-.box {
-  height: 800px;
-  margin: 0;
-  padding: 0;
+header {
+  background-color: #c2d3dd;
 }
 
-#box1 {
-  background: url("./img/box1.jpg") no-repeat;
+div#content {
+  background-color: #b38da4;
 }
 
-#box2 {
-  background: url("./img/box2.jpg") no-repeat;
-
-}
-
-#box3 {
-  background: url("./img/box3.jpg") no-repeat;
-}
-
-#box4 {
-  background: url("./img/box4.jpg") no-repeat;
+footer{
+  background-color: #f9ebd1;
 }
