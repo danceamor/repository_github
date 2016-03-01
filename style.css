@@ -1,0 +1,37 @@
+/*body領域の高さ指定*/
+#parallax{
+  height: 3000px;
+}
+
+/*スクロール値のCSS*/
+.num {
+  margin: 0;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+
+/*ボックスたちのCSS*/
+.box {
+  height: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+#box1 {
+  background: url("./img/box1.jpg") no-repeat;
+}
+
+#box2 {
+  background: url("./img/box2.jpg") no-repeat;
+
+}
+
+#box3 {
+  background: url("./img/box3.jpg") no-repeat;
+}
+
+#box4 {
+  background: url("./img/box4.jpg") no-repeat;
+}
