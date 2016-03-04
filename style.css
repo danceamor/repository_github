@@ -1,3 +1,7 @@
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+        全体のCSS
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 body {
   text-align: center;
 }
@@ -9,13 +13,41 @@ body {
   height: auto;
 }
 
+#wrapper::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+        ヘッダー部分のCSS
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 header {
   background-color: #c2d3dd;
 }
 
+.firtstcomment {
+  font-size: 0.5em;
+}
+
+h1 {
+  font-size: 2em;
+  width: auto;
+  float: left;
+}
+
+nav {
+float: left;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+        メインコンテンツのCSS
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 div#content {
   background-color: #b38da4;
 }
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+        フッター部分のCSS
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 footer{
   background-color: #f9ebd1;
